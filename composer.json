@@ -1,0 +1,15 @@
+{
+	"name": "intera-typo3-extension/cz-simple-cal-importer-cal",
+	"description": "Import events from the cal extension to cz_simple_cal",
+	"type": "typo3-cms-extension",
+	"version": "1.0.0",
+	"replace": {
+		"cz_simple_cal_importer_cal": "self.version",
+		"typo3-ter/cz-simple-cal-importer-cal": "self.version"
+	},
+	"autoload": {
+		"psr-4": {
+			"Tx\\CzSimpleCalImporterCal\\": "Classes/"
+		}
+	}
+}
